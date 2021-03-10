@@ -1009,7 +1009,7 @@ input.block-phone__name::placeholder, input.block-phone__number::placeholder {
     left: 45px;
   }
   .block-phone {
-    height: 180px;
+    min-width: 560px;
     margin-top: 250px;
   }
   .block-phone__name, .block-phone__number {
@@ -1111,6 +1111,45 @@ input.block-phone__name::placeholder, input.block-phone__number::placeholder {
   .block-photoclinic__gallery img {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrap {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 370px;
+  }
+  .block-main__title {
+    font-size: 35px;
+  }
+  .block-main__title span {
+    font-size: 40px;
+  }
+  .block-main__subtitle {
+    font-size: 28px;
+  }
+  .block-main__text {
+    width: 340px;
+    height: 150px;
+    text-align: center;
+  }
+  .block-main__flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .block-main__subtitle {
+    font-size: 15px;
+    text-align: center;
+  }
+  .block-main__form__img {
+    right: 30px;
+  }
+  .block-main__form__contact {
+    right: 80px;
   }
 }
 /*# sourceMappingURL=main.css.map */
